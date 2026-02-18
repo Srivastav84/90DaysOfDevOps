@@ -28,6 +28,11 @@ Master file and directory ownership in Linux.
 
 Document: What's the difference between owner and group?
 
+usually owner is the user who created the file/folder . file/folder owner ship can be transferd using command chown.
+group is the which has the permission to access a file/folder and granting a user with same access is to add him in that group
+qqls -l
+
+
 ---
 
 ### Task 2: Basic chown Operations (20 minutes)

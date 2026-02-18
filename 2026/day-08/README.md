@@ -110,7 +110,7 @@ This exercise teaches you:
 - **Remote server management** - SSH, security, access control
 - **Service deployment** - installing and running applications
 - **Log management** - accessing and analyzing logs
-- **Security** - configuring firewalls and security groups
+- _**Security** - configuring firewalls and security groups_
 
 These are core skills for any DevOps engineer working in production.
 

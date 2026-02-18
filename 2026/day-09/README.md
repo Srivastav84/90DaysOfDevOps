@@ -80,8 +80,9 @@ Assign users:
 **Stuck? Try these commands:**
 - User: `useradd`, `passwd`, `usermod`
 - Group: `groupadd`, `groups`
+
 - Permissions: `chgrp`, `chmod`
-- Test: `sudo -u username command`
+- Test: ``
 
 **Tip:** Use `-m` flag with useradd for home directory, `-aG` for adding to groups
 
@@ -105,10 +106,13 @@ Create `day-09-user-management.md`:
 [List directories with permissions]
 
 ## Commands Used
-[Your commands here]
+
+- sudo usermod -aG groupname username
+- sudo gpasswd -a username groupname
+- rm -rf /path/to/directory
 
 ## What I Learned
-[3 key points]
+[how to add a username into a group 
 ```
 
 ---
@@ -148,3 +152,5 @@ Use hashtags:
 
 Happy Learning
 **TrainWithShubham**
+
+I want you to make my second brain for my revision for DevOPs this is what I know till now: - 24th January - i started with learning DevOps with zero To hero course (https://docs.google.com/spreadsheets/d/1eE-NhZQFr545LkP4QNhTgXcZTtkMFeEPNyVXAflXia0/edit?gid=2073716385#gid=2073716385) where i learned - What is devops, why I am learning it - 25th January - i learnt how to setup linux in local, aws, utho, i also learned with lis linux architecture, what is linux commands - 26th i did revision and started 90 days of devops https://github.com/TrainWithShubham/90DaysOfDevOps/tree/master/2026 now create a revision plan for me and teek taking my brain dumps so that i keep revising the devops concepts
