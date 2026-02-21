@@ -5,7 +5,10 @@ Start your shell scripting journey — learn the fundamentals every script needs
 
 You will:
 - Understand **shebang** (`#!/bin/bash`) and why it matters
+It tells the operating system which interpreter should execute the script
+
 - Work with **variables**, **echo**, and **read**
+
 - Write basic **if-else** conditions
 
 ---
