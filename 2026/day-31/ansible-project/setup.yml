@@ -1,0 +1,50 @@
+
+---
+- name: Configure portfolio server
+  hosts: webservers
+  become: true
+
+  tasks:
+   - name: Update apt cache
+     apt:
+        update_cache: true
+        cache_valid_time: 3600
+     become: yes
+
+   - name: Install Docker (Debian/Ubuntu)
+     apt:
+        name: docker.io
+        state: present
+     become: yes
+
+   - name: Start and enable Docker
+     ansible.builtin.service:
+        name: docker
+        state: started
+        enabled: true
+
+   - name: Install NGINX
+     ansible.builtin.apt:
+        name: nginx
+        state: present
+        update_cache: true
+
+   - name: Start and enable NGINX
+     ansible.builtin.service:
+        name: nginx
+        state: started
+        enabled: true
+
+   - name: Pull portfolio image from Docker Hub
+     community.docker.docker_image:
+        name: tg22doc/my-portfolio:latest
+        source: pull
+
+   - name: Run portfolio container
+     community.docker.docker_container:
+        name: portfolio
+        image: tg22doc/my-portfolio:latest
+        state: started
+        restart_policy: unless-stopped
+        published_ports:
+          - "8080:80"

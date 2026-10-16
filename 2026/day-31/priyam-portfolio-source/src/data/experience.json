@@ -1,0 +1,15 @@
+[
+  {
+    "role": "DevOps Engineer – API Management & Cloud Operations",
+    "company": "Wipro",
+    "location": "Pune, Maharashtra, India",
+    "period": "Sep 2024 – Present",
+    "highlights": [
+      "Managed cloud-native API onboarding, offboarding and lifecycle changes using Azure API Management (APIM) and Envoy Proxy, supporting 300+ production APIs across multiple environments.",
+      "Used Splunk, Datadog and Dynatrace for observability and troubleshooting; resume-reported incident resolution time improvement of 30%.",
+      "Supported weekly continuous deployments and production releases using Digital.ai; resume-reported 20% reduction in deployment turnaround time and zero major release failures.",
+      "Investigated and resolved 50+ production incidents in Linux environments while maintaining 99%+ SLA compliance.",
+      "Worked with GitHub and Bitbucket for source code and deployment configurations, participating in CI/CD workflows and release management."
+    ]
+  }
+]

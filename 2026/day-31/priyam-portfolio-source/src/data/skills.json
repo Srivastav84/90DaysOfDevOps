@@ -1,0 +1,10 @@
+[
+  {"group":"Cloud","items":["AWS","EC2","IAM","S3","VPC","CloudFormation","CloudFront"]},
+  {"group":"Infrastructure & Containers","items":["Terraform","Docker","Kubernetes"]},
+  {"group":"CI/CD & Release","items":["GitHub Actions","Jenkins","Digital.ai"]},
+  {"group":"Monitoring","items":["Splunk","Datadog","Dynatrace","Prometheus","Grafana"]},
+  {"group":"Version Control","items":["Git","GitHub","Bitbucket"]},
+  {"group":"Systems & Scripting","items":["Linux","Windows","Python","Bash","Shell scripting"]},
+  {"group":"Databases","items":["MySQL","PostgreSQL","MongoDB"]},
+  {"group":"API & Operations","items":["Azure API Management","Envoy Proxy","Incident management","Production support","Disaster recovery readiness","Automation"]}
+]

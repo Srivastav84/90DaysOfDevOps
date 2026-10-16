@@ -1,0 +1,17 @@
+[
+  {
+    "name": "AI Banking Application — DevOps Capstone",
+    "type": "Cloud · Kubernetes · GitOps",
+    "period": "May 2026",
+    "description": "A DevOps capstone focused on infrastructure provisioning, containerized workloads, Kubernetes deployments, GitOps and observability.",
+    "highlights": [
+      "Provisioned infrastructure with Terraform and deployed workloads using Docker and Kubernetes manifests.",
+      "Implemented GitOps with Argo CD, using GitHub as the source of truth with automated reconciliation and drift detection.",
+      "Automated CD; resume-reported deployment time reduced from 10–12 minutes to 2–3 minutes.",
+      "Configured Cert-Manager, AWS Secrets Manager and IRSA as part of workload security; set up Prometheus and Grafana observability.",
+      "Resume-reported 99% SLI uptime and a reduction in incidents from 24 to 2–3 per year."
+    ],
+    "github": "",
+    "note": "ADD REPOSITORY URL in src/data/projects.json"
+  }
+]
